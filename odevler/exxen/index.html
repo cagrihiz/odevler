@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXXEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt="logo">
+            </div>
+
+
+            <li class="tr">
+                <a href="#">Türkiye'nin Dijital Platformu</a>
+            </li>
+            <li class="ticari">
+                <a href="#">EXXENSPOR Paketi Ticari Üyelik</a>
+            </li>
+            <li class="kayit">
+                <a href="#">Kayıt olmak</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <nav>
+        <div class="yazi">
+    <div class="text">
+        
+        <div class="ad">
+            <form><input type="text" placeholder="Ad Soyad"></form>
+        </div>
+        <div class="soyad">
+            <form><input type="text" placeholder="E-posta"></form>
+        </div>
+        <div class="buton">
+            <form><input type="submit" placeholder="Üye ol"></form>
+        </div>
+        </form>
+    </div>
+    </div>
+    </nav>
+    <div class="foto">
+        <img src="https://image.exxen.com/landing/14gun.jpg" alt="foto" width="800" height="500"><br>
+    </div>
+    <div class="afisler">
+    <div class="foto-1">
+        <img src=https://image1.exxen.com/content/8/NZ/22399/Poster.jpg?v638158413007475421 alt="foto1" width="150" height="300">
+        <h4><b>GİBİ</b></h4>
+    </div>
+    <div class="foto-2">
+        <img src="https://image2.exxen.com/content/W/S0/22385/Poster.jpg?v=638297763499147590" alt="foto2" width="150" height="300">
+        <h4><b>KONUŞANLAR</b></h4>   
+    </div>
+    <div class="foto-3">
+        <img src="https://image3.exxen.com/content/g/Kd/40122/Poster.jpg?v=638089327176152171" alt="foto3" width="150" height="300">
+        <h4><b>LEYLA ile MECNUN</b></h4> 
+    </div>
+    <div class="foto-4">
+        <img src="https://image4.exxen.com/content/J/qa/47316/Poster.jpg?v=637994777508359621" alt="foto4" width="150" height="300">
+        <h4><b>SADECE ARKADAŞIZ</b></h4>
+    </div>
+
+    </div>
+
+    <div  class="afisler2">
+        <div class="foto-5">
+            <img src="https://image5.exxen.com/content/7/TV/46350/Poster.jpg?v=638085057924964440" alt="foto5" width="150" height="300">
+            <h4><b>SİZİ DİNLİYORUM</b></h4>
+        </div>
+
+        <div class="foto-6">
+            <img src="https://image1.exxen.com/content/j/fv/22481/Poster.jpg?v=637726055819673373" alt="foto6" width="150" height="300">
+            <h4><b>TOLGSHOW</b></h4>
+        </div>
+
+        <div class="foto-7">
+            <img src="https://image3.exxen.com/content/L/-m/44282/Poster.jpg?v=638326039046024316" alt="foto7" width="150" height="300">
+            <h4><b>AŞK KUMARDIR</b></h4>
+        </div>
+
+        <div class="foto-8">
+            <img src="https://image2.exxen.com/content/R/ex/34598/Poster.jpg?v=637726441222283466" alt="foto8" width="150" height="300">
+            <h4><b>ÖLÜM ZAMANI</b></h4>
+        </div>
+    </div>
+
+    <div class="afis3">
+        <img src="https://wimage.exxen.com/img/landing/devices.svg" alt="afis3">
+        <h2><b>Hemen üye ol, cepte, tablette, bilgisayarda, istediğin zaman, istediğin yerde exxen.com, Google Play, AppGallery, App Store, Apple TV ve Android TV'den izlemeye başla.</b></h2>
+    </div>
+
+
+    <div class="icon-back">
+    <div class="icon">
+        <img src="https://wimage.exxen.com/img/app-store-2.svg" alt="app-store-">
+        <img src="https://wimage.exxen.com/img/google-play@3x.png" alt="google-play">
+        <img src="https://wimage.exxen.com/img/landing/huawei-app-gallery@3x.png" alt="appgallery">
+    </div>
+    </div>
+
+    <div class="social-media">
+        <div class="insta">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="face">
+        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="twit">
+        <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="youtube">
+        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="tiktok">
+        <i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i>
+        </div>   
+    </div>
+
+
+    <div class="yazi2">
+        <h1><p>Exxen Yardım Merkezi</p></h1>
+    </div>
+    <div class="yazi3">
+        <h3><p>Künye</p></h3>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/1f1e2106dc.js" crossorigin="anonymous"></script>
+    <!-- position fixed kullan
+    width=100%  yaz-->
+</body>
+</html>
