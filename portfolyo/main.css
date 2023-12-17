@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #f9fafa;
+    display: flex;
+}
+
+
+
+.left a {
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+}
+.social-media {
+    margin-top: 28rem;
+}
+.social-media a {
+    display: block;
+}
+
+.right img {
+    width: 45%;
+}
+
+.right b {
+    font-size: 100px;
+}
+
+
